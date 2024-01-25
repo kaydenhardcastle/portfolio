@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kaydenhardcastle/portfolio/static/css/main.42104eda.css",
+    "main.js": "/kaydenhardcastle/portfolio/static/js/main.b0288cc4.js",
+    "index.html": "/kaydenhardcastle/portfolio/index.html",
+    "main.42104eda.css.map": "/kaydenhardcastle/portfolio/static/css/main.42104eda.css.map",
+    "main.b0288cc4.js.map": "/kaydenhardcastle/portfolio/static/js/main.b0288cc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42104eda.css",
+    "static/js/main.b0288cc4.js"
+  ]
+}
