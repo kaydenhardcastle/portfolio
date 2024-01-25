@@ -2,7 +2,7 @@
   "name": "kh-portfolio-react-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/kaydenhardcastle/portfolio",
+  "homepage": "https://github.com/kaydenhardcastle/portfolio/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
