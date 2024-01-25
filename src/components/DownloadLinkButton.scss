@@ -1,0 +1,13 @@
+.resume-download-button {
+  height: 30px;
+  width: 175px;
+  border: solid 1px #222;
+  background-color: transparent;
+
+  &:hover {
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #4caf50;
+    background-color: #4caf50;
+  }
+}

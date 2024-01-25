@@ -1,0 +1,23 @@
+.tabs {
+  margin: 0;
+
+  .tab-titles {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .tab-titles button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+
+  .tab-titles .active {
+    border-bottom: 2px solid #4caf50;
+  }
+
+  .tab-content {
+    padding: 20px 0;
+  }
+}

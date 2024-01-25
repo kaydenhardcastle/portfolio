@@ -1,0 +1,47 @@
+.project {
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 10px 10px 0;
+  border: 1px solid #ccc;
+
+  img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .title {
+    color: #333;
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .description {
+    height: 70px;
+    color: #555;
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+
+  .date {
+    color: #333;
+    margin: 20px 0;
+    font-size: 16px;
+  }
+
+  .link {
+    margin-top: 10px;
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+  }
+}

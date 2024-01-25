@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  overflow: hidden;
+  background-color: #222;
+  margin-bottom: 20px;
+
+  .initials {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    font-family: 'Inter';
+  }
+
+  .menu {
+    display: flex;
+    margin-left: auto;
+
+
+    .nav-link,
+    .nav-link-active {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      margin-right: 20px;
+      letter-spacing: 1px;
+      text-decoration: none;
+
+      &:hover {
+        color: #4caf50;
+        cursor: pointer;
+      }
+    }
+
+    .nav-link-active {
+      color: #4caf50;
+      cursor: pointer;
+    }
+  }
+}
