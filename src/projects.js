@@ -100,7 +100,7 @@ export const projects = [
     type: 'code',
     date: '1/23/2024',
     title: 'Portfolio website',
-    link: 'https://github.com/kaydenhardcastle/kaydenhardcastle.github.io',
+    link: 'https://github.com/kaydenhardcastle/portfolio',
     description: "The code repo for this website.",
   },
 ]
