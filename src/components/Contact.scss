@@ -1,0 +1,62 @@
+.contact {
+  width: 500px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 70px 10px 10px 0;
+
+  h1 {
+    font-size: 50px;
+    color: #4caf50;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  h6 {
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+  }
+
+  .contact-details-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    p,
+    .label {
+      padding: 10px 0;
+    }
+
+    .label {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .value {
+      width: 300px;
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: solid 1px #fff;
+
+      p {
+        font-size: 20px;
+      }
+
+      svg {
+        margin: auto 10px;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:hover {
+        cursor: pointer;
+        border: solid 1px #222;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+      }
+    }
+  }
+}

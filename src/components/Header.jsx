@@ -1,11 +1,20 @@
-import React from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 
 import './Header.scss';
 
 const Header = () => {
+  const navigate = useNavigate();
   const location = useLocation();
   const isHomePage = location.pathname === '/';
+
+  useEffect(() => {
+    const visited = localStorage.getItem('visited');
+    if (!visited) {
+      localStorage.setItem('visited', 'true');
+      navigate('/about');
+    }
+  }, [navigate]);
 
   return (
     <div className="header">
